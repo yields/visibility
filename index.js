@@ -1,4 +1,3 @@
-
 /**
  * document.
  */
@@ -70,7 +69,6 @@ exports = module.exports = function (fn) {
         break;
     }
 
-    console.log(cb);
     cb && cb(e);
   }, false);
 
