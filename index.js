@@ -33,7 +33,7 @@ var doc = document;
 exports = module.exports = function (fn) {
   var vendors = ['ms', 'moz', 'webkit']
     , event = 'visibilitychange'
-    , state = 'VisibilityState'
+    , state = 'visibilityState'
     , len = vendors.length
     , curr;
 
